@@ -5,6 +5,7 @@ third_party/kenlm/build/
 *.binary
 *.arpa
 *.arpa.gz
+!testdata/*.arpa
 
 # Go build artifacts
 *.test
