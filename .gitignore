@@ -1,0 +1,17 @@
+# Local KenLM build output
+third_party/kenlm/build/
+
+# Large model files (exceed GitHub 100 MB limit)
+*.binary
+*.arpa
+*.arpa.gz
+
+# Go build artifacts
+*.test
+*.out
+
+# Editor / tooling
+.vscode/
+.idea/
+.DS_Store
+.claude/settings.local.json
